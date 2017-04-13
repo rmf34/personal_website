@@ -1,0 +1,155 @@
+<!-- no jquery on page -->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
+
+
+
+
+<!-- https://github.com/nlalonde/commits-widget -->
+<iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rmf34&repo=prop_manager&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
+
+
+
+
+
+
+<!-- twitter widget -->
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/up2matt" data-widget-id="451776753149546496">Tweets by @up2matt</a>
+        <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
+
+
+
+<!-- github widget that didn't work -->
+<!-- https://github.com/alexanderbeletsky/github-commits-widget/blob/master/js/github.commits.widget.js -->
+<script type="text/javascript" src="js/github.commits.widget.min.js"></script>
+    <div id='github-commits'></div>
+
+    <script>
+      $(function() {
+        $('#github-commits').githubInfoWidget({ user: 'rmf34', repo: 'prop_manager.git', branch: 'master' });
+      });
+    </script>
+
+
+
+
+
+
+
+
+
+
+  <head>
+
+
+
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.plusanchor.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('body').plusAnchor({
+          easing: 'easeInOutExpo'
+        });
+      });
+    </script>
+
+
+
+
+<body>
+
+  right before about div
+          <!-- <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#recent_dev">Recent Dev Work</a></li>
+          </ul>
+        </nav> -->
+
+
+
+  right above bottom gradient
+
+
+
+        <!-- <div id="recent_dev">
+          <h3>Recent Dev Work</h3>
+          <div class="section_head">
+            <h4 class='ruby'>=> Projects at UniversityNow</h4>
+          </div>
+
+          <div class="section_content">
+            <p>Here are some highlights from the last few months.</p>
+          </div>
+
+
+          <div class="section_head">
+            <h4>Salesforce Integration</h4>
+          </div>
+
+          <div class="section_content">
+            <p>I built an integration between Fundly and Salesforce using the <a href="http://github.com/heroku/databasedotcom" target='_blank'>Databasedotcom gem</a> from Heroku. This feature supported our sales team by creating a new Salesforce lead whenever a user signs up for Fundly with their email. We pushed new information to leads nightly.</p>
+            <p class='italic'>tech used: Resque, Resque Scheduler, Databasedotcom</p>
+          </div>
+
+          <div class="section_head">
+            <h4>Administrative Tools</h4>
+          </div>
+
+          <div class="section_content">
+            <p>I took over maintenance of our internal admin tool. This tool is used by our product, support, and sales teams. Initially, it only provided a GUI for non-technical users to update properties of the Cause object. While a good start, it was underdeveloped and permitted significant user error.</p>
+            <p>My first work on the cause tool involved increasing usability. I added the ability to clone custom attributes from another cause, and to read custom attribute defaults to simplify the workflow. A natural next step, we added the ability to customize activities. I kept track of common requests that involved getting on Rails console in production, and added an additional 7 modules to meet these needs.</p>
+            <p>One of the top things I added to the cause tool was the surfacing of WePay payment gateway information. Now, even a non-technical user can easily assess why an account is not accepting donations. I also regularly trained internal users in the tool's new functionality.</p>
+            <p class='italic'>tech used: YAML, coffeescript, rails validation, WePay api, twitter bootstrap</p>
+          </div>
+
+          <div class="section_head">
+            <h4>Dashboard Todo Thank You Items <span></span></h4>
+          </div>
+
+          <div class="section_content">
+            <p>I built the frontend for our Dashboard Todo system. One of Fundly's backend engineers wrote a service which creates tasks based on a user's actions taken within a campaign. I got familiar with the backend and figured out the API endpoints I needed to hit or create. From there, it was some presenters, some ajax, and then styling to match the comps.</p>
+            <p>The goal of this feature was to provide users with a quick way to send personalized thank you emails to donors and supporters. I leveraged some of Fundly's js utility classes. I wrapped it up by smoothing out the experience and adding the ability to "skip" a todo if the user did not want to complete it.</p>
+            <p class='italic'>tech used: OO CoffeeScript, ajax calls to internal API's, sass/haml, Fundly utility messagebox class</p>
+          </div>
+
+        </div> -->
+
+
+
+
+from style.css
+
+/***********************
+    SECTIONS
+***********************/
+
+/*.section_head{
+  margin-left:50px;
+}
+
+.section_head h4{
+  font-size: 24px;
+}
+
+.section_content{
+  margin-left: 100px;
+}
+
+.section_content p{
+  width: 700px;
+  margin-bottom: 10px;
+}
+*/
+/***********************
+    RECENT DEV WORK
+***********************/
+
+/*#recent_dev h4{
+  margin-top: 30px;
+}
+*/

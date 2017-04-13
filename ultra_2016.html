@@ -1,0 +1,41 @@
+<title>Ultra 2016</title>
+<meta name='description' content='time to since ultra 2016' />
+<meta name='author' content='Matt Freeman' />
+<meta name='robots' content='all' />
+
+<h1>Ultra Miami 2016</h1>
+<h3>4:00PM EST Friday March 18th, 2016</h3>
+<div id='timebox'></div>
+
+<script type="text/javascript">
+
+  var leadingZero = function(val) {
+    if (val < 10) {
+      return '0' + Math.floor(parseFloat(val, 10));
+    } else {
+      return Math.floor(parseFloat(val, 10));
+    }
+  }
+
+  var calculateTime = function() {
+    var today = new Date().getTime();
+    var ultra2016 = new Date(2016, 02, 18, 16); // 3.18.2016 4pm ET
+    var timeUntil = (ultra2016 - today) / 1000 / 3600 / 24;
+
+    var daysUntil = Math.floor(timeUntil);
+    var hoursUntil = (timeUntil % 1) * 24;
+    var minutesUntil = (hoursUntil % 1) * 60;
+    var secondsUntil = (minutesUntil % 1) * 60;
+
+    var printHours = leadingZero(hoursUntil);
+    var printMinutes = leadingZero(minutesUntil);
+    var printSeconds = leadingZero(secondsUntil);
+
+    document.getElementById('timebox').innerHTML = daysUntil + ' days ' + printHours + ':' + printMinutes + ':' + printSeconds;
+  };
+  calculateTime();
+  setInterval(function(){
+    calculateTime();
+  }, 1000);
+
+</script>
