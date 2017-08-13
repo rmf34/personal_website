@@ -94,7 +94,7 @@ h3{
   color:#FC8703;
 }
 
-p{
+p, li{
   font-size:1.3em;
   /*font-family: 'Helvetica Neue', Arial, Helvetica, serif;*/
   font-family: 'EB Garamond', Times, serif;
