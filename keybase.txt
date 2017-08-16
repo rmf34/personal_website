@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rmf34
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://up2matt.com
+  * I am rmf34 (https://keybase.io/rmf34) on keybase.
+  * I have a public key with fingerprint D9D4 4315 633B 2ED0 8B1B  F8D2 AF45 9372 9EF3 30BD
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c9a51c8d658dda9b83cb4fa948bfa229a1a753264b0927958f054a720f3b552d0a",
+      "fingerprint": "d9d44315633b2ed08b1bf8d2af4593729ef330bd",
+      "host": "keybase.io",
+      "key_id": "af4593729ef330bd",
+      "kid": "0101c9a51c8d658dda9b83cb4fa948bfa229a1a753264b0927958f054a720f3b552d0a",
+      "uid": "58b11af05895bc63bdd769bd749ade00",
+      "username": "rmf34"
+    },
+    "service": {
+      "hostname": "up2matt.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1502901266,
+  "expire_in": 157680000,
+  "prev": "7e4ea07ed28c5f47b40c261680ffedf38a935d4b3f26f7f010052326671b688e",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSFVBFL2WlQpmSC8KyU4PLE3mzHnfoKcfUdHDih5Ul5kzM3pQ77n3
+3HNNM4kgKhDLolArgjCzSDGLAqmP3hRF0MNHlJkJGVRqUkGF1Ryxvz6bn2H2XmvN
+2ot9J3GkLyFm4Hb24zVLk4pjHt48EvVtPuomlwjYJsWCv0TIo0MXzSc04gbyLCL4
+BSAC0TSQIpo6URWdEGRgXTKxzJAh65ghCA0kIk2RoCpjYEDNUHQGFBlpEDAJKwok
+AAkZArOCOdQJOVbQ5bLEILIsiYoqSRhSAnQsYqYTiJisGJIGDcokCWDCibl2xGNw
+cxhFaKZl8xp/BIbs/QP/n31Hh+QUblBEvK8bCjZVCROiqQYmmmwgQgHwgBHqBFEB
+5WingEmyUJoh8FKhZVIvVW+M4XY0BAuQ62aadgHnhRzbtU07nzdyXTfk93huccgD
+7qA4MCwRwFaQ8Ag5oZA6EcsOCn6RI03X8jRFBUADiFBVMwRaFLIcGrA8hKKpOuDH
++4YWckmNyhQBjRKomwqTNSwDE6oiRzFGCZN0ZEgKkbHEoMo0xmMECuQZqZqIVV2n
+gjdUOGgLfo3bRDlcMmLlBJEbdahQeuvG1lhfTIJv9KgR3mr5EuLH/V24R+/jfDWx
+WQ3Nz8ZOrqvcGFeypW9m7fJvC5+mtDQ6c82mOPVNTlNnb+3nN5WrzbIlazvjWzcX
+VV+/Gs5t3Hje0BLfnWafJqYfnNKzqKuopqK1fPe+nYemf4DNmx70z6s+cLC/71bh
+1F0tWt3K7xfLLl3Yvn9P48JpA+vHFP86c7iycfHgg6TMvROS01OWvj55uOtpZ9qs
+rPst574ff1J+7GHH4KmKUG9UINer/AmzT8xpC/ccmRep3vTWHayyste5YEVa96Or
+3Qs6nix7ceJjw7PnX5rvoZ9n8yYkf217uayso7qdzm/Pjf5YU2/H3E1P3TZj1aTS
+8IzI6Mwxr+i12fW/L28YH04rTbmS2v0HdBdD4g==
+=tFxw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rmf34
+
+==================================================================
