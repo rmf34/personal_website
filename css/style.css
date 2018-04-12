@@ -14,6 +14,10 @@ http://cssminifier.com/
   padding:0;
 }
 
+body{
+  /*background-color: #3AAFA9;*/
+}
+
 /*********************
   WRAPPERS
 ********************/
@@ -50,7 +54,7 @@ h1{
 
 span.first{
   color: #fff;
-  background-color: #ff9f33;
+  background-color: #911236;
   padding: 75px;
   letter-spacing:18px;
   line-height:210px;
@@ -61,7 +65,7 @@ span.last{
   line-height: 90px;
   margin-left: 50px;
   font-weight: 300;
-  color: #ff9f33;
+  color: #911236;
 }
 
 h3{
@@ -91,7 +95,7 @@ h3{
 }
 
 .highlight, a{
-  color:#FC8703;
+  color:#911236;
 }
 
 p, li{
