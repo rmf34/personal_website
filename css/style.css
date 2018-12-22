@@ -151,7 +151,7 @@ a:active{
 .about p{
   margin-top: 16px;
   position: relative;
-  right: 70px;
+  right: 54px;
 }
 
 .matt_photo{
@@ -170,20 +170,7 @@ a:active{
 }
 
 .matt_photo{
-  margin-left:50px;
-}
-
-/***********************
-    recent_reads
-***********************/
-
-.recent_reads{
-  width: 100%;
-  min-height: 60px;
-}
-
-.recent_reads h3{
-  width: 270px;
+  margin-left: 0;
 }
 
 /***********************
@@ -256,7 +243,6 @@ p.email_address {
   }
 
   .matt_photo{
-    /*display: none;*/
     position: absolute;
     top: 0px;
     right: 50px;
@@ -271,16 +257,6 @@ p.email_address {
     margin-top: -70px;
     width: 500px;
     height: 300px;
-  }
-
-  .about {
-    width: 500px;
-    height:750px;
-    margin-top: 100px;
-  }
-
-  .about p{
-    left: 5px;
   }
 
   .contact {
