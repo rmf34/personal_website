@@ -4,30 +4,25 @@ http://cssminifier.com/
 
 ***/
 
-
 /***********************
 		RESETS
 ***********************/
 
-*{
+* {
   margin:0;
   padding:0;
-}
-
-body{
-  /*background-color: #3AAFA9;*/
 }
 
 /*********************
   WRAPPERS
 ********************/
 
-.full_width_wrapper{
+.full_width_wrapper {
   width:100%;
   height:100%;
 }
 
-.wrapper_content{
+.wrapper_content {
   width:1080px;
   margin:0 auto;
 }
@@ -36,23 +31,23 @@ body{
 		HEADING
 ***********************/
 
-.heading h1 a{
+.heading h1 a {
   text-decoration: none;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   color:#111;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight:100;
 }
 
-h1{
+h1 {
   margin-top: 20px;
   font-size: 130px;
   padding-bottom: 30px;
 }
 
-span.first{
+span.first {
   color: #fff;
   background-color: #911236;
   padding: 75px;
@@ -60,7 +55,7 @@ span.first{
   line-height:210px;
 }
 
-span.last{
+span.last {
   letter-spacing: -4px;
   line-height: 90px;
   margin-left: 50px;
@@ -68,7 +63,7 @@ span.last{
   color: #911236;
 }
 
-h3{
+h3 {
   margin:20px 0 20px 10px;
   font-size:3em;
 }
@@ -78,27 +73,27 @@ h3{
 		SECTIONS GLOBAL
 ***********************/
 
-.left{
+.left {
   float:left;
 }
 
-.right{
+.right {
   float:right;
 }
 
-.bold{
+.bold {
   font-weight:bold;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
 
-.highlight, a{
+.highlight, a {
   color:#911236;
 }
 
-p, li{
+p, li {
   font-size:1.3em;
   /*font-family: 'Helvetica Neue', Arial, Helvetica, serif;*/
   font-family: 'EB Garamond', Times, serif;
@@ -108,53 +103,69 @@ p, li{
   line-height:150%;
 }
 
-a{
+a {
   text-decoration:none;
 }
 
-a:hover{
+a:hover {
   text-decoration:underline;
 }
 
-a:active{
+a:active {
   text-decoration:none;
   opacity: 0.75;
 }
 
+/***********************
+    THEN
+***********************/
 
+.then {
+  float: left;
+  width: 100%;
+  margin-top: 70px;
+  height: 110px;
+}
+
+.then p {
+  margin-top: 16px;
+  margin-left: 148px;
+}
 /***********************
     CURRENT
 ***********************/
 
-.current{
+.current {
   float: left;
   width: 100%;
-  margin-top: 70px;
-  height: 180px;
+  margin-top: 20px;
+  height: 130px;
 }
 
-.current p{
+.current p {
   margin-top: 16px;
-  margin-left: 52px;
+  margin-left: 160px;
 }
-
 
 /***********************
 		ABOUT
 ***********************/
 
-.about{
+.about {
   width: 100%;
-  min-height: 670px;
+  margin-bottom: 20px;
 }
 
-.about p{
+.about p {
   margin-top: 16px;
   position: relative;
   right: 54px;
 }
+.about .right {
+  margin-bottom: 20px;
+}
 
-.matt_photo{
+.matt_photo {
   margin:30px 67px 0 30px;
   border-bottom:25px solid white;
   border-left:10px solid white;
@@ -166,10 +177,10 @@ a:active{
   -webkit-transform: rotate(1deg); /* Safari and Chrome */
   -o-transform: rotate(1deg); /* Opera */
   -moz-transform: rotate(1deg); /* Firefox */
-  -webkit-backface-visibility:hidden;
+  -webkit-backface-visibility: hidden;
 }
 
-.matt_photo{
+.matt_photo {
   margin-left: 0;
 }
 
@@ -177,19 +188,18 @@ a:active{
 		CONTACT
 ***********************/
 
-.contact{
+.contact {
   clear: both;
   height: 180px;
-  margin-top:180px;
 }
 
-.sm_icons{
+.sm_icons {
   margin-left:40px;
   width: 480px;
   margin-top:16px;
 }
 
-.sm_icons img{
+.sm_icons img {
   margin:15px;
 }
 
@@ -201,7 +211,7 @@ p.email_address {
 		FOOTER
 ***********************/
 
-.bottom_gradient{
+.bottom_gradient {
   padding-top: 20px;
   height: 60px;
   clear:both;
@@ -209,57 +219,9 @@ p.email_address {
 	margin:0 auto;
 }
 
-.bottom_gradient p{
+.bottom_gradient p {
   margin-left:250px;
   text-align:center;
   font-weight: 200;
   letter-spacing: 3px;
-}
-
-
-/***********************
-    MEDIA QUERIES
-***********************/
-
-/* iPhone 6 Portrait */
-@media only screen and (max-device-width: 667px){
-  h1{
-    font-size: 70px;
-  }
-
-  span.first{
-    letter-spacing:6px;
-    color: #ff9f33;
-    background-color: white;
-    padding: 10px;
-    line-height:210px;
-  }
-
-  span.last{
-    letter-spacing: 6px;
-    line-height: 70px;
-    margin-left: 0px;
-    font-weight: 300;
-  }
-
-  .matt_photo{
-    position: absolute;
-    top: 0px;
-    right: 50px;
-  }
-
-  .wrapper_content{
-    width:667px;
-    margin:0 auto;
-  }
-
-  .current {
-    margin-top: -70px;
-    width: 500px;
-    height: 300px;
-  }
-
-  .contact {
-    margin-top: 40px;
-  }
 }
